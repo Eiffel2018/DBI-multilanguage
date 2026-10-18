@@ -5,7 +5,7 @@ from trace_mtp_creation_v74 import creation
 
 def main():
     import validate_912_v74  # Existing loader/hook/fallback assertions.
-    from build_release import LANGS
+    from build_release import LANGS, VERSION
     report=json.loads((b.OUT/'build-report.json').read_text())
     nro=(b.OUT/'switch/DBI/DBI.nro').read_bytes()
     cases=[(b'1: SD Card',p.encode()) for p in (
@@ -23,7 +23,11 @@ def main():
             actual=t.through_sink(nro,payload,report)
             assert actual == b'['+name+b']\n'+mapping['Создание объекта: '.encode()]+path
     t,raw=creation(); assert t.through_sink(nro,b'',report)==raw
-    for archive in sorted((b.ROOT/'dist').glob('*.zip')):
+    from audit_salty_menu import main as audit_menu
+    audit_menu()
+    archives=sorted((b.ROOT/'dist').glob(f'*-v{VERSION}-Ready.zip'))
+    assert len(archives)==7
+    for archive in archives:
         with zipfile.ZipFile(archive) as z:
             assert z.testzip() is None
             for line in z.read('SHA256SUMS.txt').decode().splitlines():

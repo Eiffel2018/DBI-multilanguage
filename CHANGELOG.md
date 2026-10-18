@@ -1,3 +1,13 @@
+# DBI 912 localization v7.5
+
+- Translated the previously missing SaltyNX game context menu labels:
+  **Add to SaltyNX exclusions** and **SaltyNX patches...**.
+- Added all six languages and punctuation variants; matching is limited to
+  complete labels so filenames and paths remain unchanged.
+- The patched NRO is identical to v7.4. **translation.bin has changed.**
+  Replace the BIN and completely restart DBI; from older versions, replace both files.
+- Local native drawing regression coverage added. No Switch hardware test was performed.
+
 # DBI 912 localization v7.4
 
 - Fixed remaining Russian `Creating object:` messages during MTP file transfers.

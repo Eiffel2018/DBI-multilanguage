@@ -25,7 +25,13 @@ The same patched NRO works with all six tables.
 The official updater can overwrite the patched NRO. Reapply the matching NRO
 and BIN after updating. These patches target **912 only**.
 
-## What v7.4 changes
+## What v7.5 changes
+
+Adds the missing **Add to SaltyNX exclusions** and **SaltyNX patches...** menu
+translations in all six languages. The NRO is unchanged from v7.4; update
+`translation.bin` and restart DBI. From older versions, replace both files.
+
+## What v7.4 changed
 
 Fixes an untranslated MTP `Creating object:` message when DBI outputs the storage
 heading and the message in a single multiline write. The runtime now preserves
@@ -42,7 +48,7 @@ spacing corrections. See [release notes](CHANGELOG.md).
 Local ARM64 emulation and package checks passed for all six languages, including
 60 native MTP caller cases. Recorded reports are in `validation/v7.4/`.
 These tests use stubs for device/file I/O and are **not Switch hardware tests**.
-English v7.2 was previously confirmed on a Switch; v7.4 awaits hardware feedback.
+English v7.2 was previously confirmed on a Switch; v7.4/v7.5 await hardware feedback. Native drawing tests for v7.5 are in `validation/v7.5/`.
 This project does not claim every possible Russian string is covered and is not
 a security audit of DBI. Translation changes do not fix interrupted transfers.
 

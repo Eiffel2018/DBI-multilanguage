@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "languages": {
+    "en": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    },
+    "zhtw": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    },
+    "zhcn": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    },
+    "jp": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    },
+    "fr": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    },
+    "es": {
+      "previous_entries_unchanged": true,
+      "added_entries": 4
+    }
+  },
+  "scope": "Existing entries preserved byte-for-byte; table compile/parse roundtrip"
+}

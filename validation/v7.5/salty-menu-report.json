@@ -1,0 +1,75 @@
+{
+  "result": "PASS",
+  "source": "User screenshot; whole labels, including punctuation variants",
+  "scope": "Native UTF-8 parser with final character output stub for plain/padded labels and filenames; ANSI preservation tested at native UI wrapper. Native ANSI color parser, menu construction and actions not executed.",
+  "nro_unchanged_from_v74": true,
+  "switch_hardware_tested": false,
+  "languages": {
+    "en": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "Add to SaltyNX exclusions",
+        "Патчи SaltyNX": "SaltyNX patches",
+        "Патчи SaltyNX...": "SaltyNX patches...",
+        "Патчи SaltyNX…": "SaltyNX patches…"
+      }
+    },
+    "zhtw": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "加入SaltyNX排除清單",
+        "Патчи SaltyNX": "SaltyNX修補",
+        "Патчи SaltyNX...": "SaltyNX修補...",
+        "Патчи SaltyNX…": "SaltyNX修補…"
+      }
+    },
+    "zhcn": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "加入SaltyNX排除列表",
+        "Патчи SaltyNX": "SaltyNX补丁",
+        "Патчи SaltyNX...": "SaltyNX补丁...",
+        "Патчи SaltyNX…": "SaltyNX补丁…"
+      }
+    },
+    "jp": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "SaltyNXの除外リストに追加",
+        "Патчи SaltyNX": "SaltyNXパッチ",
+        "Патчи SaltyNX...": "SaltyNXパッチ...",
+        "Патчи SaltyNX…": "SaltyNXパッチ…"
+      }
+    },
+    "fr": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "Ajouter aux exclusions SaltyNX",
+        "Патчи SaltyNX": "Correctifs SaltyNX",
+        "Патчи SaltyNX...": "Correctifs SaltyNX...",
+        "Патчи SaltyNX…": "Correctifs SaltyNX…"
+      }
+    },
+    "es": {
+      "native_draw_cases": 16,
+      "ui_wrapper_cases": 12,
+      "whole_label_only": true,
+      "labels": {
+        "Добавить в исключения SaltyNX": "Añadir a exclusiones de SaltyNX",
+        "Патчи SaltyNX": "Parches SaltyNX",
+        "Патчи SaltyNX...": "Parches SaltyNX...",
+        "Патчи SaltyNX…": "Parches SaltyNX…"
+      }
+    }
+  }
+}

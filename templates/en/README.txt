@@ -1,3 +1,5 @@
+v7.5 adds the missing SaltyNX exclusion and patches menu labels. The NRO is unchanged from v7.4; translation.bin has changed. Replace both files if upgrading from an older release. Local tests only; hardware confirmation pending.
+
 ﻿DBI 912 unofficial translation v7.4 — English
 
 Fixes the actual MTP multiline output: [storage name]\nСоздание объекта: path. The v7.3 hardware failure was reproduced through the native caller; v7.4 passes local native, multiline and screenshot checks. v7.4 was not tested on Switch hardware. The English v7.2 hardware confirmation is historical only; this does not prove all Russian messages are translated.

@@ -1,0 +1,21 @@
+{
+  "version": "7.5",
+  "nro_sha256": "1d764787ee533223f80c15258e4aa83454a02141156e628d3c1ce11a689ca94a",
+  "nro_unchanged_from_v74": true,
+  "table_sha256": {
+    "en": "0797d059d02680b5211b8810d3cdc430fe3b1d11f67ae3b27edc367e7ae0d5ac",
+    "zhtw": "55e59ad4fcc902383e90dc814a751eb63818b8fcfcdc049cfd6d93991b4ad9fc",
+    "zhcn": "5f7a1541d4e1bcf8656e0974dd7545cc07f9f0b7d0fdb153d2b25098cc706fbb",
+    "jp": "61c322a6c1b1ad5b55cc48b425893ca8a4b25d95607655997aed9dddbe86a2f3",
+    "fr": "2c059107686a8c2766de39a5c89668c5a2dfb12b5363b781824b3ad6ce098cad",
+    "es": "c87d1cfa34c379f73c467cfa20ce9a9c22a96f3f4f6621085f4f04bbe4ce955a"
+  },
+  "table_entries": {
+    "en": 1564,
+    "zhtw": 1585,
+    "zhcn": 1585,
+    "jp": 1581,
+    "fr": 1579,
+    "es": 1580
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "result": "PASS",
+  "version": "7.5",
+  "nro_unchanged_from_v74": true,
+  "switch_hardware_tested": false,
+  "native_draw_cases": 96,
+  "ui_wrapper_cases": 72,
+  "mtp_native_cases": 60,
+  "packages": [
+    {
+      "file": "DBI-912-English-v7.5-Ready.zip",
+      "bytes": 7805839,
+      "sha256": "881ef3bf514153054e9d4befa47eddd4cecdba367b2d732aa1b824903225ef1a"
+    },
+    {
+      "file": "DBI-912-French-v7.5-Ready.zip",
+      "bytes": 7809670,
+      "sha256": "f88c75c2a33ed0dfa534cdfab4c7be87edea985a756593fe7d485592d3c08bed"
+    },
+    {
+      "file": "DBI-912-Japanese-v7.5-Ready.zip",
+      "bytes": 7812435,
+      "sha256": "50fd31a37283e575617dd8290de2c646194d0181b550668578995dc8d330b586"
+    },
+    {
+      "file": "DBI-912-Simplified-Chinese-v7.5-Ready.zip",
+      "bytes": 7806718,
+      "sha256": "fffa3ec9f3be39cb465a0ca11c27c38bcf57bac4c70c7e2eed0b9333d101c4e1"
+    },
+    {
+      "file": "DBI-912-Six-Languages-v7.5-Ready.zip",
+      "bytes": 8138265,
+      "sha256": "386484c512ff5c1ff94d73bf0f5b16e046bf6431e5f202a58925748204f0d7db"
+    },
+    {
+      "file": "DBI-912-Spanish-v7.5-Ready.zip",
+      "bytes": 7808628,
+      "sha256": "b3ac012a5765460078af40a693cb4b93aec8887080a4f25ed4e853e621617490"
+    },
+    {
+      "file": "DBI-912-Traditional-Chinese-v7.5-Ready.zip",
+      "bytes": 7807285,
+      "sha256": "97fae37b5273b0a6b6bf13e5fccf4cb62faf986af7ffd045bfc310aa8e1126ea"
+    }
+  ]
+}

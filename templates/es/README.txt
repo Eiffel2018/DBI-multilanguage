@@ -1,3 +1,5 @@
+v7.5 traduce las opciones que faltaban en el menú de exclusiones y parches de SaltyNX. El NRO es idéntico al de v7.4; translation.bin ha cambiado. Desde una versión anterior, sustituya ambos archivos. Pruebas locales superadas; pendiente de confirmar en consola.
+
 ﻿DBI 912 — Traducción no oficial v7.4 — Español predeterminado
 
 Corrige el mensaje MTP real de varias líneas: [almacenamiento]\nСоздание объекта: ruta. El seguimiento del llamador nativo reprodujo el fallo de v7.3 observado en Switch; v7.4 supera las comprobaciones locales nativas, multilínea y de capturas. v7.4 no se probó en hardware Switch. La confirmación de hardware de v7.2 en inglés es histórica; esto no demuestra que se hayan traducido todos los mensajes rusos.
