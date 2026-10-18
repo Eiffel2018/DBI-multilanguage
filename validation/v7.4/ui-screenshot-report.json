@@ -1,0 +1,68 @@
+{
+  "result": "PASS",
+  "languages": {
+    "en": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    },
+    "zhcn": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    },
+    "zhtw": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    },
+    "jp": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    },
+    "fr": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    },
+    "es": {
+      "native_utf8_cases": 33,
+      "unchanged_paths_and_ids": 10,
+      "packed_month_argument_cases": 24,
+      "colored_padding_cases": 198,
+      "label_value_cases": 12,
+      "buffer_alias_cases": 6,
+      "clip_limit": "PASS",
+      "descriptor_guards": "PASS"
+    }
+  },
+  "switch_hardware_tested": false,
+  "native_evidence": "0x9dbf4: 0xddddd descriptor, 16-byte string-view slots; 0x1aff80: byte-counted UTF-8 draw parser",
+  "scope": "native draw parser with final cell output stub; fmt hook stops at native formatter resume"
+}

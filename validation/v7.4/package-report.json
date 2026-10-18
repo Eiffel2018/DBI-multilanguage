@@ -1,0 +1,87 @@
+{
+  "result": "PASS",
+  "version": "7.4",
+  "nro_sha256": "1d764787ee533223f80c15258e4aa83454a02141156e628d3c1ce11a689ca94a",
+  "nro_changed_from_v73": true,
+  "translation_bins_identical_to_v73": {
+    "en": "44e63822dfbdfaf6f71ff22ca90c0cd9b3547b4765e95b25f3935ea160e5f5a8",
+    "zhtw": "a2f6a91da316190fa6be9604da92ffb2a902eb4d917bb2433a75f08f9c970710",
+    "zhcn": "9c598cf17acf117b6b50373dd675565d1a85cf7106965b7866154b6e5a2eef3e",
+    "jp": "ed9cc05e3e47c3d26147285d2dea9b4d1bce2a765ebb6bcdeee6967519df0572",
+    "fr": "ee5bdb18c602b33f6d166fa663dbb38f370275aa6809b4e2f95042696146f1cf",
+    "es": "c2acd1b0c2c9a3b825f6c1970e700495caf213abda700fe63130e04de24c007c"
+  },
+  "v73_multiline_failure_reproduced": true,
+  "historical_switch_validation": "English v7.2 only",
+  "v74_switch_hardware_tested": false,
+  "claims_all_russian_text_covered": false,
+  "pass_gates": [
+    "native-creation-report.json",
+    "multiline-report.json",
+    "audit-report.json",
+    "ui-screenshot-report.json",
+    "mtp-screenshot-report.json",
+    "save-tab-report.json",
+    "activity-tab-report.json",
+    "statistics-header-report.json"
+  ],
+  "packages": {
+    "en": {
+      "file": "DBI-912-English-v7.4-Ready.zip",
+      "bytes": 7805645,
+      "sha256": "f8c6abd531bea1c31ca3a3a82b4a0b59cb2f2e8e6a49644de94ebe5ed59985ac",
+      "default_language": "en",
+      "archive_readback_and_crc": "PASS"
+    },
+    "zhtw": {
+      "file": "DBI-912-Traditional-Chinese-v7.4-Ready.zip",
+      "bytes": 7807066,
+      "sha256": "bcb4402343a0b4c39f3a07b0ed01123d2ba74db36c1b5e4fec80bddff234ae1c",
+      "default_language": "zhtw",
+      "archive_readback_and_crc": "PASS"
+    },
+    "zhcn": {
+      "file": "DBI-912-Simplified-Chinese-v7.4-Ready.zip",
+      "bytes": 7806512,
+      "sha256": "f1d2fac3f78433da9dd2a51d4eb0665b6918c87fc2821e5ebaf55a2b1c86dd69",
+      "default_language": "zhcn",
+      "archive_readback_and_crc": "PASS"
+    },
+    "jp": {
+      "file": "DBI-912-Japanese-v7.4-Ready.zip",
+      "bytes": 7812219,
+      "sha256": "d74171247d4c0edd03fd1dc39fd013382a1565ab0415a8a2b71252d9c3aef055",
+      "default_language": "jp",
+      "archive_readback_and_crc": "PASS"
+    },
+    "fr": {
+      "file": "DBI-912-French-v7.4-Ready.zip",
+      "bytes": 7809456,
+      "sha256": "88a244dceb34e4ae134102f8323b670cf2a19bc7f3fc36b6b07f71c1e7800672",
+      "default_language": "fr",
+      "archive_readback_and_crc": "PASS"
+    },
+    "es": {
+      "file": "DBI-912-Spanish-v7.4-Ready.zip",
+      "bytes": 7808418,
+      "sha256": "e4f32c5de4807b00847be853507226aafc1df03f015cfd9d7d45ad9ab0d1fc8e",
+      "default_language": "es",
+      "archive_readback_and_crc": "PASS"
+    },
+    "combined": {
+      "file": "DBI-912-Six-Languages-v7.4-Ready.zip",
+      "bytes": 8136804,
+      "sha256": "803d453923a40547d4a90eda364ce62be559fbbefdcd31b40a9a7e679d55d3ca",
+      "default_language": "en",
+      "archive_readback_and_crc": "PASS"
+    }
+  },
+  "public_source_rebuild": {
+    "result": "PASS",
+    "nro_and_all_six_tables_match_previous_v74": true,
+    "native_caller_cases": 60,
+    "archive_manifests_and_crcs": "PASS",
+    "switch_hardware_tested": false,
+    "note": "Archive hashes describe the rebuilt public release; ZIP metadata differs from earlier local packages."
+  }
+}

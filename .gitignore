@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+python-deps/
+*.nro
+*.zip
+dist/
+mtp-native-v7.4/*
+!mtp-native-v7.4/translations_*_v74.csv
+*.keys

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Translation keys contain significant trailing spaces.
+*.csv whitespace=-trailing-space,-blank-at-eof
+*.config whitespace=-trailing-space,-blank-at-eof

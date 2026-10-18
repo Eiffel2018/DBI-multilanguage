@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "languages": {
+    "en": {
+      "full_multiline_dictionary_entries_preserved": 82,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    },
+    "zhcn": {
+      "full_multiline_dictionary_entries_preserved": 83,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    },
+    "zhtw": {
+      "full_multiline_dictionary_entries_preserved": 83,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    },
+    "jp": {
+      "full_multiline_dictionary_entries_preserved": 83,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    },
+    "fr": {
+      "full_multiline_dictionary_entries_preserved": 83,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    },
+    "es": {
+      "full_multiline_dictionary_entries_preserved": 83,
+      "interior_control_cases": 8,
+      "repeat_consumers": "PASS",
+      "bounds_and_unknown_text": "PASS"
+    }
+  },
+  "switch_hardware_tested": false
+}

@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "native_save_label_init": "0x53d58c",
+  "native_save_caller": "0x53d9bc",
+  "native_tab_renderer": "0x50bf50",
+  "native_width_function": "0x134e60",
+  "english_save_tabs": [
+    "!!  ┌───────────────────────┐                                                  ",
+    "!!  │       Installed       │       Uninstalled                Backups         ",
+    "!!──┘                       └───────────────────────────────────────────────────"
+  ],
+  "v6_1_failure_reproduced": true,
+  "original_labels_unchanged": true,
+  "detail_tabs": [
+    "!!  ┌───────────────────────┐                                                  ",
+    "!!  │        Content        │         Tickets                 Save Data        ",
+    "!!──┘                       └───────────────────────────────────────────────────"
+  ],
+  "filename_and_unknown_labels_unchanged": true,
+  "missing_table_fallback": "PASS",
+  "language_cases": {
+    "en": [
+      "Installed",
+      "Uninstalled",
+      "Backups"
+    ],
+    "zhcn": [
+      "已安装",
+      "已删除",
+      "备份"
+    ],
+    "zhtw": [
+      "已安裝",
+      "已刪除",
+      "備份"
+    ],
+    "jp": [
+      "インストール済み",
+      "削除済み",
+      "バックアップ"
+    ],
+    "fr": [
+      "Installés",
+      "Supprimés",
+      "Sauvegardes"
+    ],
+    "es": [
+      "Instalados",
+      "Eliminados",
+      "Copias de seguridad"
+    ]
+  },
+  "array_counts_1_to_7_and_callee_saved_registers": "PASS",
+  "switch_hardware_tested": false,
+  "scope": "Execute the actual SAVE label initialization, caller, tab layout and width code.\n\nOnly C++ memory primitives, TLS/atexit and final string ownership are stubbed.\nThe GUI input labels and the tab geometry are original ARM64 instructions."
+}

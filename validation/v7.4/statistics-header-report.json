@@ -1,0 +1,73 @@
+{
+  "result": "PASS",
+  "native_header_init": "0x3e0418",
+  "native_header_measure_sites": [
+    "0x3e0588",
+    "0x3e0800",
+    "0x3e0a54"
+  ],
+  "v7_1_failure_reproduced": true,
+  "v7_1_row": "       Игрок           Сессии     Время   ",
+  "languages": {
+    "en": {
+      "labels": [
+        "Player",
+        "Sessions",
+        "Time"
+      ],
+      "native_row": "       Player         Sessions     Time   ",
+      "native_column_width": 42
+    },
+    "zhcn": {
+      "labels": [
+        "玩家",
+        "会话",
+        "时间"
+      ],
+      "native_row": "         玩家              会话         时间    ",
+      "native_column_width": 42
+    },
+    "zhtw": {
+      "labels": [
+        "玩家",
+        "工作階段",
+        "時間"
+      ],
+      "native_row": "         玩家             工作階段        時間    ",
+      "native_column_width": 42
+    },
+    "jp": {
+      "labels": [
+        "プレイヤー",
+        "セッション",
+        "時間"
+      ],
+      "native_row": "       プレイヤー           セッション        時間    ",
+      "native_column_width": 42
+    },
+    "fr": {
+      "labels": [
+        "Joueur",
+        "Sessions",
+        "Temps"
+      ],
+      "native_row": "       Joueur         Sessions    Temps   ",
+      "native_column_width": 42
+    },
+    "es": {
+      "labels": [
+        "Jugador",
+        "Sesiones",
+        "Tiempo"
+      ],
+      "native_row": "      Jugador         Sesiones    Tiempo  ",
+      "native_column_width": 42
+    }
+  },
+  "missing_table_fallback": "PASS",
+  "inline_ownership_and_capacity": "PASS",
+  "oversized_translation_fallback": "PASS",
+  "unrelated_native_width_calls_unchanged": true,
+  "scope": "Actual label decryption, fixed-size copies, moves, native UTF8 width and centering. C++ constructor/allocation/append primitives stubbed; native padding helper executed.",
+  "switch_hardware_tested": false
+}

@@ -1,0 +1,5 @@
+Translation sources: https://github.com/rashevskyv/DBIPatcher
+Languages: en, zhtw, zhcn, jp, fr, es.
+Existing local corrections are retained; v7.2 adds localized keys and line-ending variants.
+The upstream README declares the MIT license; original runtime notices are included.
+DBI upstream: https://github.com/rashevskyv/dbi

@@ -1,0 +1,22 @@
+dbi-translate
+
+This tool patches DBI but includes none of it. Users supply their own DBI NRO.
+
+Credits and related work:
+
+- DBI -- the Nintendo Switch homebrew installer/manager this tool patches.
+  Authored by duckbill; hosted and maintained on GitHub by rashevskyv.
+  https://github.com/rashevskyv/dbi
+
+- dbi-i18n by BohdanBuinich -- the runtime-translation approach for DBI and the
+  DBITRNS table format, with which this project's tables are compatible. This project
+  is an independent, self-contained reimplementation (offline keystone/capstone rather
+  than a devkitA64 toolchain) and shares no source with it.
+  https://github.com/BohdanBuinich/dbi-i18n
+
+- DBIPatcher by rashevskyv -- the community translation dataset and localization
+  pipeline; its CSVs work directly with `build-table`.
+  https://github.com/rashevskyv/DBIPatcher
+
+- Morce3232 -- earlier DBI patching work that inspired the above.
+  https://github.com/Morce3232
