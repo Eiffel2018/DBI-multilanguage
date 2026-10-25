@@ -1,3 +1,17 @@
+# DBI 912 localization v7.6
+
+- Fixed a translation-induced backup restore failure. Internal INI section names
+  such as `Account` were being translated, breaking DBI's metadata lookup.
+  INI node construction now bypasses translation; displayed labels remain localized.
+- Translated the text editor's unsaved-changes confirmation in all six languages.
+  Added the correctly spelled Russian source variants, LF/CRLF, and individual lines.
+- Reproduced the old failure with the native parser and query, and verified the
+  corrected metadata lookup, parser values, UI labels, and dialog translations locally.
+- Retained the MTP and SaltyNX translation fixes and verified all seven packages.
+
+**Replace both DBI.nro and translation.bin**, then completely exit and restart DBI.
+No Switch hardware restore or dialog test was performed for this release.
+
 # DBI 912 localization v7.5
 
 - Translated the previously missing SaltyNX game context menu labels:

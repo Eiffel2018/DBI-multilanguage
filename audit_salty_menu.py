@@ -1,5 +1,6 @@
 """Render screenshot-derived menu labels through native DBI UTF-8 drawing."""
-import json
+import hashlib, json, os
+from pathlib import Path
 import build_912_v74 as b
 from salty_menu import LABELS, entries
 
@@ -55,12 +56,14 @@ def main():
                 native_cases+=1
         results[lang]={'native_draw_cases':native_cases,'ui_wrapper_cases':wrapper_cases,'whole_label_only':True,
             'labels':dict(entries(lang))}
-    output=b.ROOT/'validation/v7.5'
+    from build_release import VERSION
+    output=Path(os.environ.get('TEMP', r'R:\Temp'))/f'dbi-v{VERSION}'
     output.mkdir(parents=True,exist_ok=True)
     (output/'salty-menu-report.json').write_text(json.dumps({
         'result':'PASS','source':'User screenshot; whole labels, including punctuation variants',
         'scope':'Native UTF-8 parser with final character output stub for plain/padded labels and filenames; ANSI preservation tested at native UI wrapper. Native ANSI color parser, menu construction and actions not executed.',
-        'nro_unchanged_from_v74':True,'switch_hardware_tested':False,'languages':results},
+        'nro_sha256':hashlib.sha256(v.nro).hexdigest(),
+        'switch_hardware_tested':False,'languages':results},
         ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print('PASS: 96 native drawing cases and 72 UI wrapper cases across six languages; paths unchanged.')
 

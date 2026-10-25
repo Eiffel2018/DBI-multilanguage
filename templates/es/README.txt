@@ -1,10 +1,6 @@
-v7.5 traduce las opciones que faltaban en el menú de exclusiones y parches de SaltyNX. El NRO es idéntico al de v7.4; translation.bin ha cambiado. Desde una versión anterior, sustituya ambos archivos. Pruebas locales superadas; pendiente de confirmar en consola.
+DBI 912 unofficial translation v7.6 — Español predeterminado
 
-﻿DBI 912 — Traducción no oficial v7.4 — Español predeterminado
-
-Corrige el mensaje MTP real de varias líneas: [almacenamiento]\nСоздание объекта: ruta. El seguimiento del llamador nativo reprodujo el fallo de v7.3 observado en Switch; v7.4 supera las comprobaciones locales nativas, multilínea y de capturas. v7.4 no se probó en hardware Switch. La confirmación de hardware de v7.2 en inglés es histórica; esto no demuestra que se hayan traducido todos los mensajes rusos.
-El NRO de v7.4 cambió respecto a v7.3. Para instalar o actualizar, reemplaza DBI.nro y translation.bin en /switch/DBI/; puedes conservar dbi.config.
-
+Corrige un fallo de restauración de copias de partidas causado por la traducción y traduce la confirmación de cambios sin guardar del editor. Los datos INI internos se conservan; las etiquetas siguen traducidas. Sustituye DBI.nro Y translation.bin y reinicia DBI. Pruebas nativas locales superadas; restauración y diálogo pendientes de confirmar en Switch.
 
 Instalación: cierra DBI por completo. Copia la carpeta switch a la raíz de
 la tarjeta SD. Sustituye DBI.nro Y translation.bin en /switch/DBI/ y reinicia DBI.

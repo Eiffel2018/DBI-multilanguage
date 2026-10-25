@@ -25,6 +25,8 @@ def main():
     t,raw=creation(); assert t.through_sink(nro,b'',report)==raw
     from audit_salty_menu import main as audit_menu
     audit_menu()
+    from audit_restore_v76 import main as audit_restore
+    audit_restore()
     archives=sorted((b.ROOT/'dist').glob(f'*-v{VERSION}-Ready.zip'))
     assert len(archives)==7
     for archive in archives:

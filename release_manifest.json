@@ -1,21 +1,20 @@
 {
-  "version": "7.5",
-  "nro_sha256": "1d764787ee533223f80c15258e4aa83454a02141156e628d3c1ce11a689ca94a",
-  "nro_unchanged_from_v74": true,
+  "version": "7.6",
+  "nro_sha256": "5d3447a945a4bee183a29721b906f4134d038ed762c1e8ca02ec3d40f85879d6",
   "table_sha256": {
-    "en": "0797d059d02680b5211b8810d3cdc430fe3b1d11f67ae3b27edc367e7ae0d5ac",
-    "zhtw": "55e59ad4fcc902383e90dc814a751eb63818b8fcfcdc049cfd6d93991b4ad9fc",
-    "zhcn": "5f7a1541d4e1bcf8656e0974dd7545cc07f9f0b7d0fdb153d2b25098cc706fbb",
-    "jp": "61c322a6c1b1ad5b55cc48b425893ca8a4b25d95607655997aed9dddbe86a2f3",
-    "fr": "2c059107686a8c2766de39a5c89668c5a2dfb12b5363b781824b3ad6ce098cad",
-    "es": "c87d1cfa34c379f73c467cfa20ce9a9c22a96f3f4f6621085f4f04bbe4ce955a"
+    "en": "8494e9d003d00d875a76bb1c64d9cf7d470b0d10a50f96cb0ce2143dbd4cdc74",
+    "zhtw": "a6f36d7d84778260b1ea9598708919293ad7a143f905442031d33aa23dcd6536",
+    "zhcn": "d4d511ed42e95fb5016bef25662e7c49cedeb83114cad15133b98e836b5aad4d",
+    "jp": "c972a33c65cee8feefe288bca5fda43c79b49abba36d77ef225acbd544b057c1",
+    "fr": "238ae3b67d80b835cff926a0eb582ae9506323f60efd9940792ede9ff59c88e5",
+    "es": "88fc908575ecb5082fccf2dc120907d25f1758b55f70665173c03b8c52d83005"
   },
   "table_entries": {
-    "en": 1564,
-    "zhtw": 1585,
-    "zhcn": 1585,
-    "jp": 1581,
-    "fr": 1579,
-    "es": 1580
+    "en": 1574,
+    "zhtw": 1595,
+    "zhcn": 1595,
+    "jp": 1591,
+    "fr": 1589,
+    "es": 1590
   }
 }

@@ -25,7 +25,19 @@ The same patched NRO works with all six tables.
 The official updater can overwrite the patched NRO. Reapply the matching NRO
 and BIN after updating. These patches target **912 only**.
 
-## What v7.5 changes
+## What v7.6 changes
+
+Fixes a translation-induced backup restore failure: the internal INI section
+name `Account` could become a translated UI label, so DBI could not find it.
+The native INI parsers now retain their original data while UI labels remain
+localized. Also translates the text editor's unsaved-changes confirmation,
+covering the spelling shown in the report, LF/CRLF and individual dialog lines
+in all six languages.
+
+**Replace both DBI.nro and translation.bin**, then completely restart DBI.
+The NRO and all six tables have changed from v7.5.
+
+## What v7.5 changed
 
 Adds the missing **Add to SaltyNX exclusions** and **SaltyNX patches...** menu
 translations in all six languages. The NRO is unchanged from v7.4; update
@@ -49,6 +61,9 @@ Local ARM64 emulation and package checks passed for all six languages, including
 60 native MTP caller cases. Recorded reports are in `validation/v7.4/`.
 These tests use stubs for device/file I/O and are **not Switch hardware tests**.
 English v7.2 was previously confirmed on a Switch; v7.4/v7.5 await hardware feedback. Native drawing tests for v7.5 are in `validation/v7.5/`.
+v7.6 reproduces the v7.5 metadata failure and passes native parser/query
+regressions, plus dialog translation checks. Actual backup restoration and the
+reported dialog still require Switch confirmation; no console save data was touched.
 This project does not claim every possible Russian string is covered and is not
 a security audit of DBI. Translation changes do not fix interrupted transfers.
 

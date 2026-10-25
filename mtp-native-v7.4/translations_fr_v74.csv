@@ -1578,3 +1578,13 @@ DBI\n\nНажите (+) для согласия\nЛюбую другую кно�
 Патчи SaltyNX,Correctifs SaltyNX
 Патчи SaltyNX...,Correctifs SaltyNX...
 Патчи SaltyNX…,Correctifs SaltyNX…
+"Есть несохранённые изменения.\nВы хотите их сохранить?\n\n(+) - Да, сохранить\n\n(-) - Выйти без сохранения\n\nДругая кнопка - Отмена",Des modifications ne sont pas enregistrées.\nVoulez-vous les enregistrer ?\n\n(+) - Enregistrer\n\n(-) - Quitter sans enregistrer\n\nAutre touche - Annuler
+"Есть несохранённые изменения.\r\nВы хотите их сохранить?\r\n\r\n(+) - Да, сохранить\r\n\r\n(-) - Выйти без сохранения\r\n\r\nДругая кнопка - Отмена",Des modifications ne sont pas enregistrées.\r\nVoulez-vous les enregistrer ?\r\n\r\n(+) - Enregistrer\r\n\r\n(-) - Quitter sans enregistrer\r\n\r\nAutre touche - Annuler
+"Есть несохраненные изменения.\nВы хотите их сохранить?\n\n(+) - Да, сохранить\n\n(-) - Выйти без сохранения\n\nДругая кнопка - Отмена",Des modifications ne sont pas enregistrées.\nVoulez-vous les enregistrer ?\n\n(+) - Enregistrer\n\n(-) - Quitter sans enregistrer\n\nAutre touche - Annuler
+"Есть несохраненные изменения.\r\nВы хотите их сохранить?\r\n\r\n(+) - Да, сохранить\r\n\r\n(-) - Выйти без сохранения\r\n\r\nДругая кнопка - Отмена",Des modifications ne sont pas enregistrées.\r\nVoulez-vous les enregistrer ?\r\n\r\n(+) - Enregistrer\r\n\r\n(-) - Quitter sans enregistrer\r\n\r\nAutre touche - Annuler
+Есть несохранённые изменения.,Des modifications ne sont pas enregistrées.
+Есть несохраненные изменения.,Des modifications ne sont pas enregistrées.
+Вы хотите их сохранить?,Voulez-vous les enregistrer ?
+"(+) - Да, сохранить",(+) - Enregistrer
+(-) - Выйти без сохранения,(-) - Quitter sans enregistrer
+Другая кнопка - Отмена,Autre touche - Annuler

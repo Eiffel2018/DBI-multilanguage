@@ -1563,3 +1563,13 @@ DPAD/Стики - Навигация по страницам\n\n     ZR+ZL - П�
 Патчи SaltyNX,SaltyNX patches
 Патчи SaltyNX...,SaltyNX patches...
 Патчи SaltyNX…,SaltyNX patches…
+"Есть несохранённые изменения.\nВы хотите их сохранить?\n\n(+) - Да, сохранить\n\n(-) - Выйти без сохранения\n\nДругая кнопка - Отмена",There are unsaved changes.\nDo you want to save them?\n\n(+) - Save\n\n(-) - Exit without saving\n\nOther button - Cancel
+"Есть несохранённые изменения.\r\nВы хотите их сохранить?\r\n\r\n(+) - Да, сохранить\r\n\r\n(-) - Выйти без сохранения\r\n\r\nДругая кнопка - Отмена",There are unsaved changes.\r\nDo you want to save them?\r\n\r\n(+) - Save\r\n\r\n(-) - Exit without saving\r\n\r\nOther button - Cancel
+"Есть несохраненные изменения.\nВы хотите их сохранить?\n\n(+) - Да, сохранить\n\n(-) - Выйти без сохранения\n\nДругая кнопка - Отмена",There are unsaved changes.\nDo you want to save them?\n\n(+) - Save\n\n(-) - Exit without saving\n\nOther button - Cancel
+"Есть несохраненные изменения.\r\nВы хотите их сохранить?\r\n\r\n(+) - Да, сохранить\r\n\r\n(-) - Выйти без сохранения\r\n\r\nДругая кнопка - Отмена",There are unsaved changes.\r\nDo you want to save them?\r\n\r\n(+) - Save\r\n\r\n(-) - Exit without saving\r\n\r\nOther button - Cancel
+Есть несохранённые изменения.,There are unsaved changes.
+Есть несохраненные изменения.,There are unsaved changes.
+Вы хотите их сохранить?,Do you want to save them?
+"(+) - Да, сохранить",(+) - Save
+(-) - Выйти без сохранения,(-) - Exit without saving
+Другая кнопка - Отмена,Other button - Cancel

@@ -1,10 +1,6 @@
-v7.5補上SaltyNX排除清單及修補選單漏譯。NRO與v7.4相同，translation.bin已更新。若由較舊版本升級，請同時覆蓋兩個檔案。已通過本機測試，尚待實機確認。
+DBI 912 unofficial translation v7.6 — 預設繁體中文
 
-﻿DBI 912 非官方翻譯 v7.4 — 預設繁體中文
-
-修正實際的 MTP 多行訊息：[儲存空間名稱]\nСоздание объекта: 路徑。原生呼叫追蹤重現 v7.3 實機遇到的漏譯；v7.4 通過本地原生、多行及截圖檢查。v7.4 未在 Switch 實機測試。英文 v7.2 實機確認僅作歷史參考；此版不保證所有俄文訊息均已翻譯。
-v7.4 的 NRO 與 v7.3 不同，安裝或更新時請同時替換/switch/DBI/DBI.nro 與 translation.bin；可保留 dbi.config。
-
+修正翻譯導致存檔備份無法還原的問題，並補上文字編輯器「未儲存變更」確認視窗。內部INI資料保留原文，畫面標籤維持翻譯。請同時替換DBI.nro與translation.bin，完全退出後重新啟動。已通過本機原生測試，實際還原及確認視窗仍待Switch實機確認。
 
 安裝：完全退出DBI，將switch資料夾複製至SD卡根目錄，
 同時替換/switch/DBI/DBI.nro與translation.bin，再重新啟動DBI。

@@ -11,6 +11,7 @@ from dbi_translate.versions import Version, Site
 from dataclasses import replace
 from runtime_v3 import safe_lookup, safe_loader
 from runtime_v74 import make_ansi
+from runtime_v76 import make_ctor
 from runtime_v4 import make_token, make_progress
 from runtime_v6 import make_ui_field
 from runtime_v61 import make_tab_text
@@ -104,7 +105,7 @@ def build():
     emit('token',make_token(blocks['lookup']))
     emit('progress',make_progress(V,blocks['token'],blocks['pfxsfx']))
     emit('ansi',make_ansi(V,blocks['progress'],blocks['lookup']))
-    for name,func in [('glog',hooks.glog_hook),('ctor',hooks.ctor_hook),('sink',hooks.sink_hook)]:emit(name,func(V,blocks['ansi']))
+    for name,func in [('glog',hooks.glog_hook),('ctor',make_ctor),('sink',hooks.sink_hook)]:emit(name,func(V,blocks['ansi']))
     emit('sink2',hooks.sink_hook(replace(V,sink=SINK2),blocks['ansi']))
     for name,site in [('render1',RENDER1),('render2',RENDER2),('append1',APPEND1),('append2',APPEND2)]:
         program=hooks.glog_hook(replace(V,glog=site),blocks['ansi'])
