@@ -1573,3 +1573,6 @@ DPAD/Стики - Навигация по страницам\n\n     ZR+ZL - П�
 "(+) - Да, сохранить",(+) - Save
 (-) - Выйти без сохранения,(-) - Exit without saving
 Другая кнопка - Отмена,Other button - Cancel
+Есть несохранёные изменения.,There are unsaved changes.
+Патчить версию в meta,Patch meta version
+@DBI_LABEL:Патчить версию в meta,Patch meta version

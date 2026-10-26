@@ -1,6 +1,6 @@
-DBI 912 unofficial translation v7.6 — Español predeterminado
+DBI 912 unofficial translation v7.7 — Español predeterminado
 
-Corrige un fallo de restauración de copias de partidas causado por la traducción y traduce la confirmación de cambios sin guardar del editor. Los datos INI internos se conservan; las etiquetas siguen traducidas. Sustituye DBI.nro Y translation.bin y reinicia DBI. Pruebas nativas locales superadas; restauración y diálogo pendientes de confirmar en Switch.
+Traduce el título de cambios sin guardar y la opción para parchear la versión meta en los seis idiomas. El NRO es idéntico al de v7.6: sustituye translation.bin y reinicia DBI; desde versiones anteriores sustituye ambos archivos. El usuario confirma que la restauración funciona en v7.6. Nuevas etiquetas verificadas localmente; visualización en Switch pendiente de confirmar.
 
 Instalación: cierra DBI por completo. Copia la carpeta switch a la raíz de
 la tarjeta SD. Sustituye DBI.nro Y translation.bin en /switch/DBI/ y reinicia DBI.

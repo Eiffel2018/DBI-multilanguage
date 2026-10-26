@@ -1,6 +1,6 @@
-DBI 912 unofficial translation v7.6 — Français par défaut
+DBI 912 unofficial translation v7.7 — Français par défaut
 
-Corrige un échec de restauration des sauvegardes provoqué par la traduction et traduit la confirmation des modifications non enregistrées de l’éditeur. Les données INI internes restent intactes ; les libellés restent traduits. Remplacez DBI.nro ET translation.bin, puis relancez DBI. Tests natifs locaux réussis ; restauration et dialogue à confirmer sur Switch.
+Traduit le titre des modifications non enregistrées et l’option de correction de la version méta dans les six langues. Le NRO est identique à v7.6 : remplacez translation.bin et relancez DBI ; depuis une version antérieure, remplacez les deux fichiers. La restauration sous v7.6 est confirmée par l’utilisateur. Nouveaux libellés vérifiés localement ; affichage sur Switch à confirmer.
 
 Installation : quittez complètement DBI. Copiez le dossier switch à la racine
 de la carte SD. Remplacez DBI.nro ET translation.bin dans /switch/DBI/,

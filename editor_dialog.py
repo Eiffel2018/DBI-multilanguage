@@ -29,7 +29,7 @@ def entries(lang):
         for newline in ('\n', '\r\n'):
             yield source.replace('\n', newline), target.replace('\n', newline)
     # Dialog widgets may send each line separately to the text renderer.
-    for spelling in ('несохранённые', 'несохраненные'):
+    for spelling in ('несохранёные', 'несохранённые', 'несохраненные'):
         yield f'Есть {spelling} изменения.', first
     yield 'Вы хотите их сохранить?', question
     yield '(+) - Да, сохранить', f'(+) - {save}'

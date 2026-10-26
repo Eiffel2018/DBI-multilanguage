@@ -1,6 +1,6 @@
-DBI 912 unofficial translation v7.6 — English
+DBI 912 unofficial translation v7.7 — English
 
-Fixes a translation-induced save backup restore failure and translates the text editor unsaved-changes confirmation. Internal INI data stays unchanged; UI labels remain translated. Replace BOTH DBI.nro and translation.bin, then restart DBI. Local native tests passed; actual restoration and dialog behavior await Switch confirmation.
+Completes the editor unsaved-changes title and translates the missing Patch meta version installation option. All six languages updated. The NRO is identical to v7.6; replace translation.bin and restart DBI. From older versions replace both files. Backup restoration with v7.6 is user-confirmed. New labels passed local native drawing tests; Switch display confirmation pending.
 
 Install: completely exit DBI. Copy the switch folder to the SD card root,
 replacing BOTH /switch/DBI/DBI.nro and translation.bin. Restart DBI.

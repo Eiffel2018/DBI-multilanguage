@@ -27,14 +27,31 @@ def main():
     audit_menu()
     from audit_restore_v76 import main as audit_restore
     audit_restore()
+    from audit_labels_v77 import main as audit_labels
+    audit_labels()
+    verify_archives()
+    print('PASS: 60 native caller cases, no-table fallback, archive manifests and CRCs. Not a hardware test.')
+
+
+def verify_archives():
+    from build_release import LANGS, VERSION
+    expected=json.loads((b.ROOT/'release_manifest.json').read_text())
     archives=sorted((b.ROOT/'dist').glob(f'*-v{VERSION}-Ready.zip'))
     assert len(archives)==7
     for archive in archives:
         with zipfile.ZipFile(archive) as z:
             assert z.testzip() is None
+            assert hashlib.sha256(z.read('switch/DBI/DBI.nro')).hexdigest()==expected['nro_sha256']
+            default=next((lang for lang,title in LANGS.items()
+                          if archive.name==f'DBI-912-{title}-v{VERSION}-Ready.zip'),'en')
+            assert hashlib.sha256(z.read('switch/DBI/translation.bin')).hexdigest()==expected['table_sha256'][default]
+            for lang in LANGS:
+                name=f'translations/translation_{lang}.bin'
+                if name in z.namelist():
+                    assert hashlib.sha256(z.read(name)).hexdigest()==expected['table_sha256'][lang]
             for line in z.read('SHA256SUMS.txt').decode().splitlines():
                 sha,name=line.split('  ',1)
                 assert hashlib.sha256(z.read(name)).hexdigest()==sha
-    print('PASS: 60 native caller cases, no-table fallback, archive manifests and CRCs. Not a hardware test.')
+    print('PASS: seven archives; pinned NRO/BIN hashes, manifests and CRCs.')
 
 if __name__=='__main__':main()

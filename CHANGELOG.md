@@ -1,3 +1,17 @@
+# DBI 912 localization v7.7
+
+- Completed the editor's unsaved-changes title: DBI renders a misspelled Russian
+  sentence independently, which was absent from the v7.6 single-line entries.
+- Translated the missing **Patch meta version** installation option, including
+  padded labels and labels followed by a colon, in all six languages.
+- User feedback confirms backup restoration works with v7.6. This release uses
+  exactly the same NRO and retains the internal metadata protection.
+- New labels pass native text-drawing and ANSI-wrapper checks locally; their
+  Switch display still awaits confirmation. No install action was executed.
+
+From v7.6, replace `translation.bin` and completely restart DBI. From older
+versions, replace both `DBI.nro` and `translation.bin`.
+
 # DBI 912 localization v7.6
 
 - Fixed a translation-induced backup restore failure. Internal INI section names

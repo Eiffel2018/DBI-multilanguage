@@ -25,14 +25,25 @@ The same patched NRO works with all six tables.
 The official updater can overwrite the patched NRO. Reapply the matching NRO
 and BIN after updating. These patches target **912 only**.
 
-## What v7.6 changes
+## What v7.7 changes
+
+Completes the text editor confirmation's first line, including the misspelled
+Russian text actually shown by DBI, and translates **Patch meta version** in
+the installation options. All six languages are updated, including labels
+drawn with padding or a colon.
+
+The NRO is identical to v7.6 and retains its save-restore fix. From v7.6,
+replace `translation.bin` and completely restart DBI. From earlier releases,
+replace both files. Save backup restoration with v7.6 is now user-confirmed;
+the two new labels have passed local native drawing checks and await Switch feedback.
+
+## What v7.6 changed
 
 Fixes a translation-induced backup restore failure: the internal INI section
 name `Account` could become a translated UI label, so DBI could not find it.
 The native INI parsers now retain their original data while UI labels remain
-localized. Also translates the text editor's unsaved-changes confirmation,
-covering the spelling shown in the report, LF/CRLF and individual dialog lines
-in all six languages.
+localized. Added text editor confirmation entries for LF/CRLF and individual
+dialog lines in all six languages. The remaining misspelled title is fixed in v7.7.
 
 **Replace both DBI.nro and translation.bin**, then completely restart DBI.
 The NRO and all six tables have changed from v7.5.
@@ -62,8 +73,9 @@ Local ARM64 emulation and package checks passed for all six languages, including
 These tests use stubs for device/file I/O and are **not Switch hardware tests**.
 English v7.2 was previously confirmed on a Switch; v7.4/v7.5 await hardware feedback. Native drawing tests for v7.5 are in `validation/v7.5/`.
 v7.6 reproduces the v7.5 metadata failure and passes native parser/query
-regressions, plus dialog translation checks. Actual backup restoration and the
-reported dialog still require Switch confirmation; no console save data was touched.
+regressions, plus dialog translation checks. The user has now confirmed backup
+restoration works; the remaining dialog title and installation label are addressed
+in v7.7. Our local tests do not perform console save operations.
 This project does not claim every possible Russian string is covered and is not
 a security audit of DBI. Translation changes do not fix interrupted transfers.
 

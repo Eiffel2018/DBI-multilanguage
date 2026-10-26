@@ -1589,3 +1589,6 @@ DBI\n\nНажите (+) для согласия\nЛюбую другую кно�
 "(+) - Да, сохранить",(+) - Guardar
 (-) - Выйти без сохранения,(-) - Salir sin guardar
 Другая кнопка - Отмена,Otro botón - Cancelar
+Есть несохранёные изменения.,Hay cambios sin guardar.
+Патчить версию в meta,Parchear versión meta
+@DBI_LABEL:Патчить версию в meta,Parchear versión meta

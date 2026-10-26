@@ -5,7 +5,7 @@ import build_912_v74 as b
 
 LANGS = {'en':'English','zhtw':'Traditional-Chinese','zhcn':'Simplified-Chinese',
          'jp':'Japanese','fr':'French','es':'Spanish'}
-VERSION = '7.6'
+VERSION = '7.7'
 
 def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 

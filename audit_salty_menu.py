@@ -4,7 +4,7 @@ from pathlib import Path
 import build_912_v74 as b
 from salty_menu import LABELS, entries
 
-def main():
+def native_draw_type():
     import validate_912_v74 as v
 
     class NativeDraw(v.Machine):
@@ -31,6 +31,12 @@ def main():
             assert self.u.reg_read(v.UC_ARM64_REG_SP)==self.stack
             return ''.join(self.characters).encode()
 
+    return NativeDraw
+
+
+def main():
+    import validate_912_v74 as v
+    NativeDraw=native_draw_type()
     results={}
     for lang in LABELS:
         payload,_=b.compile_translation(b.OUT/f'translations_{lang}_v74.csv')

@@ -1,6 +1,6 @@
-DBI 912 unofficial translation v7.6 — 預設繁體中文
+DBI 912 unofficial translation v7.7 — 預設繁體中文
 
-修正翻譯導致存檔備份無法還原的問題，並補上文字編輯器「未儲存變更」確認視窗。內部INI資料保留原文，畫面標籤維持翻譯。請同時替換DBI.nro與translation.bin，完全退出後重新啟動。已通過本機原生測試，實際還原及確認視窗仍待Switch實機確認。
+補齊編輯器「有尚未儲存的變更」第一行，並翻譯安裝選項「修補中繼資料版本」。六種語言同步更新。NRO與v7.6完全相同；由v7.6升級只需替換translation.bin並重啟DBI，較舊版本請同時替換兩個檔案。使用者已確認v7.6可還原備份；新增文字通過本機原生繪製測試，仍待Switch畫面確認。
 
 安裝：完全退出DBI，將switch資料夾複製至SD卡根目錄，
 同時替換/switch/DBI/DBI.nro與translation.bin，再重新啟動DBI。

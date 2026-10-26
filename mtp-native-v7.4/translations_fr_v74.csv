@@ -1588,3 +1588,6 @@ DBI\n\nНажите (+) для согласия\nЛюбую другую кно�
 "(+) - Да, сохранить",(+) - Enregistrer
 (-) - Выйти без сохранения,(-) - Quitter sans enregistrer
 Другая кнопка - Отмена,Autre touche - Annuler
+Есть несохранёные изменения.,Des modifications ne sont pas enregistrées.
+Патчить версию в meta,Corriger version méta
+@DBI_LABEL:Патчить версию в meta,Corriger version méta
